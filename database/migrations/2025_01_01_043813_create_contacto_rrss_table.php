@@ -14,6 +14,9 @@ return new class extends Migration
         Schema::create('contacto_rrss', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->text('instagram')->nullable();
+            $table->string('telefono')->nullable();
+
         });
     }
 
