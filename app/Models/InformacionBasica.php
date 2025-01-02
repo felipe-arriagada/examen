@@ -1,14 +1,24 @@
 <?php
 
+<<<<<<< HEAD
 
+=======
+// app/Models/InformacionBasica.php
+>>>>>>> 018e7a859f7fd3a09042aa1b24c8afa3cc5fe8a2
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+<<<<<<< HEAD
 
 
 
+=======
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+>>>>>>> 018e7a859f7fd3a09042aa1b24c8afa3cc5fe8a2
 
 class InformacionBasica extends Model
 {

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use App\Models\ContactoRrss;
 
 class ContactoRrssController extends Controller
@@ -103,4 +104,10 @@ public function delete($id)
 
     return response()->json(['message' => 'Habilitado correctamente', 'data' => $record]);
 }
+=======
+
+class ContactoRrssController extends Controller
+{
+    //
+>>>>>>> 018e7a859f7fd3a09042aa1b24c8afa3cc5fe8a2
 }

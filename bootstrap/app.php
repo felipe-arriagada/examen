@@ -12,7 +12,11 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->validateCsrfTokens(
+<<<<<<< HEAD
             except: ['/v1/informacion-basica/*', '/v1/quienes-somos/*','/v1/contacto-rrss/*' ]
+=======
+            except: ['/v1/informacion-basica/*', '/v1/quienes-somos/*']
+>>>>>>> 018e7a859f7fd3a09042aa1b24c8afa3cc5fe8a2
             
         );
     })
